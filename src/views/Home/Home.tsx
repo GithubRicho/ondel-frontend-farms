@@ -60,15 +60,15 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'BitBlocks Finance')}
+          {TranslateString(576, 'Ondel Finance')}
         </Heading>
         <Text>{TranslateString(578, 'The Farm DEFI token on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
         <Cards>
           <FarmStakingCard />
-          <LotteryCard/>
           <TwitterCard/>
+          <LotteryCard/>
           <CakeStats />
           <TotalValueLockedCard />
         </Cards>

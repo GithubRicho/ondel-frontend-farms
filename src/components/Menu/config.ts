@@ -12,19 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Exchange",
-        href: "http://exchange.bitblocks.finance//#/swap",
+        href: "http://exchange.bataviacrypto.com//#/swap",
       },
       {
         label: "Liquidity",
-        href: "http://exchange.bitblocks.finance//#/pool",
-      },
-      {
-        label: "Exchange V1",
-        href: "http://v1exchange.bitblocks.finance//#/swap",
-      },
-      {
-        label: "Liquidity V1",
-        href: "http://v1exchange.bitblocks.finance//#/pool",
+        href: "http://exchange.bataviacrypto.com//#/pool",
       },
     ],
   },
@@ -44,76 +36,76 @@ const config: MenuEntry[] = [
     href: '/lottery'
   },
   {
-    label: 'Buy BBKFI',
+    label: 'Buy Ondel',
     icon: 'IfoIcon',
-    href: 'https://exchange.bitblocks.finance//#/swap?inputCurrency=BNB&outputCurrency=0xfc8e68e30350c6603d3d29fcc8e676380c28fcf4',
+    href: 'http://exchange.bataviacrypto.com//#/swap',
   },
-  {
-    label: '+ BBKFI to Metamask',
-    icon: 'LayerIcon',
-    href: 'https://cutt.ly/addbbkfi',
-  },
-  {
-    label: '+ wBBK to Metamask',
-    icon: 'LayerIcon',
-    href: 'https://cutt.ly/addwbbk',
-  },
-  {
-    label: 'Roadmap',
-    icon: 'RoadmapIcon',
-    href: 'https://bitblocksproject.gitbook.io/bitblocks-finance/roadmap',
-  },
-  {
-    label: 'Tools',
-    icon: 'NftIcon',
-    items: [
-      {
-        label: 'Lp Worth calculator',
-        href: 'https://bitblocksfinance.web.app/calc.html',
-      },
-      {
-        label: 'Farm stats',
-        href: 'https://bitblocksfinance.web.app/farm.html',
-      },
+  // {
+  //   label: '+ BBKFI to Metamask',
+  //   icon: 'LayerIcon',
+  //   href: 'https://cutt.ly/addbbkfi',
+  // },
+  // {
+  //   label: '+ wBBK to Metamask',
+  //   icon: 'LayerIcon',
+  //   href: 'https://cutt.ly/addwbbk',
+  // },
+  // {
+  //   label: 'Roadmap',
+  //   icon: 'RoadmapIcon',
+  //   href: 'https://bitblocksproject.gitbook.io/bitblocks-finance/roadmap',
+  // },
+  // {
+  //   label: 'Tools',
+  //   icon: 'NftIcon',
+  //   items: [
+  //     {
+  //       label: 'Lp Worth calculator',
+  //       href: 'https://bitblocksfinance.web.app/calc.html',
+  //     },
+  //     {
+  //       label: 'Farm stats',
+  //       href: 'https://bitblocksfinance.web.app/farm.html',
+  //     },
 
-    ],
-  },
+  //   ],
+  // },
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
         label: 'Price Chart',
-        href: 'https://goswapp-bsc.web.app/0xfc8e68e30350c6603d3d29fcc8e676380c28fcf4'
+        href: '/'
       },
       {
         label: 'DappRadar (Stats)',
-        href: 'https://dappradar.com/binance-smart-chain/defi/bitblocks-finance'
+        href: '/'
       },
       {
         label: 'Docs',
-        href: 'https://bitblocksproject.gitbook.io/bitblocks-finance',
+        href: '/',
       },
       {
         label: 'Github',
-        href: 'https://github.com/BitBlocksProject',
+        href: 'https://github.com/ondelondel',
       },
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xfC8E68E30350c6603D3d29fCc8E676380C28FCf4',
+        href: 'https://pancakeswap.info/token/',
       },
 
     ],
   },
+  // {
+  //   label: 'Audit by TechRate',
+  //   icon: 'AuditIcon',
+  //   href: 'https://bitblocks.finance/files/Techrate-audit.pdf',
+  // },
   {
-    label: 'Audit by TechRate',
-    icon: 'AuditIcon',
-    href: 'https://bitblocks.finance/files/Techrate-audit.pdf',
-  },
-  {
-    label: 'BitBlocks Website',
+    label: 'Ondel-Ondel Website',
     icon: 'MoreIcon',
-    href: 'https://bitblocksproject.com/',
+    href: 'https://bataviacrypto.com/',
   },
 ]
 
