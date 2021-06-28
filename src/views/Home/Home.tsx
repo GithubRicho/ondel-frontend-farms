@@ -67,8 +67,8 @@ const Home: React.FC = () => {
       <div>
         <Cards>
           <FarmStakingCard />
-          <TwitterCard/>
-          <LotteryCard/>
+          <TwitterCard />
+          <LotteryCard />
           <CakeStats />
           <TotalValueLockedCard />
         </Cards>

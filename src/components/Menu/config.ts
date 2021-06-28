@@ -4,19 +4,19 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: "/",
+    href: '/',
   },
   {
     label: 'Trade',
     icon: 'TradeIcon',
     items: [
       {
-        label: "Exchange",
-        href: "http://exchange.bataviacrypto.com//#/swap",
+        label: 'Exchange',
+        href: 'http://exchange.bataviacrypto.com//#/swap',
       },
       {
-        label: "Liquidity",
-        href: "http://exchange.bataviacrypto.com//#/pool",
+        label: 'Liquidity',
+        href: 'http://exchange.bataviacrypto.com//#/pool',
       },
     ],
   },
@@ -33,7 +33,7 @@ const config: MenuEntry[] = [
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: '/lottery'
+    href: '/lottery',
   },
   {
     label: 'Buy Ondel',
@@ -76,11 +76,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Price Chart',
-        href: '/'
+        href: '/',
       },
       {
         label: 'DappRadar (Stats)',
-        href: '/'
+        href: '/',
       },
       {
         label: 'Docs',
@@ -94,7 +94,6 @@ const config: MenuEntry[] = [
         label: 'PancakeSwap',
         href: 'https://pancakeswap.info/token/',
       },
-
     ],
   },
   // {
